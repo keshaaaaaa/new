@@ -1,0 +1,2184 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+body {
+    margin: 0;
+    font-family: "Gothic A1", sans-serif;
+    background-color: #1c1c1c;
+    scroll-behavior: smooth;
+
+}
+
+
+ /* Описание общих классов */
+
+
+a {
+    color: #ecc440;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+video {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+/* Описание меню */
+
+.header {
+    position: absolute;
+    z-index: 3;
+}
+
+.header_list {
+    display: flex;
+    color: #ecc440;
+    gap: 170px;
+}
+
+.nav__link {
+    color: #ecc440;
+}
+
+.header_nav a.active {
+    font-size: 17;
+    opacity: 1;
+    color: #ecc440;
+}
+
+.header_nav {
+    color: #ecc440;
+}
+
+.header_nav a {
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.header_nav a:hover {
+    opacity: 0.9;
+}
+
+.container {
+    background-color: rgba(33, 33, 33, 0.75);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.header_logo {
+    max-height: 50px;
+}
+
+.button {
+    display: flex;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    width: 200px;
+    height: 50px;
+    background: #ecc440;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button1:hover {
+    opacity: 0.8;
+}
+
+
+/* Описание приветственной секции */
+
+
+.welcome__subtitle {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.welcome__title {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.welcome__subtitle_name {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.welcome__text {
+    width: 650px;
+    margin-left: 60%;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    
+}
+
+.welcome__list {
+    font-size: 25px;
+    margin-bottom: 40px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.welcome_article {
+    background-image: url("./Images/Welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section .container {
+    background-color: rgba(33, 33, 33, 0);
+}
+
+
+/* Описание секции welcome_section */
+
+
+.main_list {
+    display: flex;
+    max-height: 150px;
+    gap: 130px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.section_logo {
+    display: flex;
+    max-height: 150px;
+    gap: 200px;
+}
+
+.welcome_list .container {
+    background-color: #191551;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_main {
+    background-color: #191551;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.section_logo_cup {
+    display: flex;
+    max-height: 150px;
+    gap: 200px;
+    margin-right: -70px;
+
+}
+
+.section_logo_graph {
+    display: flex;
+    max-height: 75px;
+    gap: 200px;
+}
+
+.section_logo_handshake {
+    display: flex;
+    max-height: 100px;
+    gap: 200px;
+    margin-left: 140px;
+}
+
+.section_logo_loupe {
+    display: flex;
+    max-height: 120px;
+    gap: 200px;
+    margin-left: 70px;
+}
+
+.section_logo_thumbs_up {
+    display: flex;
+    max-height: 100px;
+    gap: 200px;
+    margin-right: 130px;
+}
+
+.section_logo_headphones {
+    display: flex;
+    max-height: 130px;
+    gap: 200px;
+    margin-right: -80px;
+}
+
+
+/* Описание секции "Услуги" */
+
+
+.section-2 .container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services_img {
+    margin-right: 150px;
+}
+
+.services_picture {
+    height: 700px;
+    margin-left: 150px;
+}
+
+.services_title {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.section-2 {
+    max-width: 1700px;
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.services {
+    background-color: black;
+    height: 800px;
+}
+
+.services_subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.services_list {
+    font-size: 20px;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.services_subtitle_name {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* Описание секции "кейсы и отзывы" */
+
+
+.reviews {
+    background-color: #ffffff;
+}
+
+.reviews_title {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.section-3 .container {
+    background-color: #ffffff;
+    height: 900px;
+}
+
+.section-3 {
+    max-width: 1700px;
+    display: flex;
+    margin: auto;
+}
+
+.container_reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.my-video {
+    position: relative;
+    left: 150px;
+    margin-bottom: 50px; 
+}
+
+.my-video_chris {
+    position: relative;
+    right: 150px;
+    margin-bottom: 50px;
+}
+
+.play-video {
+    position: absolute; 
+    z-index: 1;
+}
+
+.play-button {
+    position: absolute;
+    z-index: 2;
+    margin-left: -430px;
+    margin-top: 80px;
+}
+
+.cards_title_kate {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cards_title_chris {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Описание ссекции "О нас" */
+
+
+.image {
+    background-image: url("./Images/Alex\ 2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1050px;
+}
+
+.about_us {
+    background-color: black;
+
+}
+
+.section-4 .container {
+    background-color: rgba(33, 33, 33, 0);
+}
+
+.about_us_title {
+    font-size: 80px;
+    text-align: right;
+    margin-right: 46%;
+    padding-top: 100px;
+    color: #ecc440;
+}
+
+.about_us_subtitle {
+    font-size: 60px;
+    text-align: right;
+    margin-right: 41%;
+    padding-top: 100px;
+    color: #ecc440;
+}
+
+.about_us_list {
+    font-size: 30px;
+    list-style-type: disc;
+    text-align: right;
+    margin-right: 41%;
+    padding-top: 100px;
+    color: #ecc440;
+}
+
+.about_us_list_text {
+    color: #ecc440;
+    margin-left: 45%;
+    padding-top: 20px;
+}
+
+.about_us_subtext {
+    font-size: 20px;
+    margin-left: 45%;
+    color: #ecc440;
+    padding-top: 20px;
+}
+
+.about_us_nav .button1 {
+    margin-left: 45%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* Форма обратной связи */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.contact_us {
+    width: 100%;
+    min-height: 100vh;
+    background: #191551;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.section-5 {
+    padding: 2rem 9%;
+}
+
+.section-5 .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-size: calc(25px + (70 - 25) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.section-5 .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.section-5 .row .img {
+    flex: 1 1 40rem;
+}
+
+.section-5 .row form {
+    flex: 1 1 40rem;
+}
+
+.section-5 .row form .box {
+    width: 100%;
+    margin: 1rem 0rem 2rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}
+
+.section-5 .row form span {
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+    color: #ffffff;
+}
+
+.section-5 .row form .gender {
+    margin: 1rem 0rem 2rem;
+}
+
+.section-5 .row form .gender label {
+    margin-left: 0.2rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.section-5 .row form .gender #female {
+    margin-left: 2rem;
+}
+
+.section-5 .row form .gender input {
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section-5 .row form .gender input:checked {
+    background-color: #ecc440;
+    border-radius: 50%;
+}
+
+.section-5 .row form .gender #female:checked ~ label[for=female] {
+    color: #ecc440;
+}
+
+.section-5 .row form .gender #male:checked ~ label[for=male] {
+    color: #ecc440;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 7);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ecc440;
+    color: #ffffff;
+}
+
+.instagram {
+    display: flex;
+    margin: 1rem 0rem 2rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.instagram .logo_instagram {
+    max-height: 60px;
+}
+
+.instagram_account {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.logo_whatsapp {
+    max-height: 60px;
+    margin-left: 50px;
+}
+
+.logo_telegram {
+    max-height: 60px;
+    margin-left: 50px;
+}
+
+
+/* Описание подвала */
+
+
+.header_logo_footer {
+    padding-left: 45%;
+    max-height: 50px;
+}
+
+.kesha {
+    padding-left: 47%;
+}
+
+.container .instagram {
+    margin-top: 20px;
+}
+
+.email {
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.number_phone {
+    margin-right: 50px;
+    font-size: 1rem;
+}
+
+.container .instagram_account{
+    font-size: 1rem;
+}
+
+.container .logo_instagram {
+    max-width: 40px;
+}
+
+.container .logo_whatsapp {
+    max-width: 40px;
+}
+
+.container .logo_telegram {
+    max-width: 40px;
+}
+
+
+/* Адаптив */
+
+
+@media (max-width: 3840px) {
+
+    .main_list {
+        gap: 10%;
+    }
+
+    .welcome_text_nav {
+        width: 3840px;
+    }
+
+    .container {
+       width: 3840px;
+       gap: 13%;
+    } 
+
+    .section_logo_handshake {
+       margin-left: 110px;
+    }
+
+    .section_logo_thumbs_up {
+        margin-left: -3px;
+    }
+
+    .welcome_list {
+        margin-left: 2%;
+    }
+      
+    .welcome_list_article {
+        background-color: #191551;
+    }
+
+    .section_logo_headphones {
+        margin-left: -20px;
+    }
+
+    .about_us_subtext {
+        max-width: 1000px;
+    }
+
+    .image {
+       margin-left: -10%;
+    }
+
+    .about_us_nav {
+       margin-left: 17%;
+    }
+
+    .header_logo_footer{
+        margin-left: 1%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 2560px) {
+    
+    
+    .main_list {
+        gap: 5%;
+    }
+
+    .welcome_text_nav {
+        width: 2560px;
+    }
+
+    .container {
+       width: 2560px;
+       gap: 0;
+    } 
+
+    .welcome_list .container {
+        gap: 10%;
+    }
+
+    .welcome_list {
+        margin-left: 2%;
+    }
+      
+    .welcome_list_article {
+        background-color: #191551;
+    }
+
+    .header_logo_footer{
+        margin-left: 0;
+    }
+
+    .section_logo_handshake {
+        margin-left: 100px;
+    }
+
+    .section_logo_loupe {
+        margin-left: 50px;
+    }
+
+    .section_logo_headphones{
+        margin-left: -20px;
+    }
+    
+    .about_us_nav {
+        margin-left: 25%;
+    }
+    
+    .about_us_list_text {
+        margin-left: 42%;
+    }
+
+    .about_us_subtext {
+        margin-left: 42%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1920px) {
+
+    .header_logo {
+        max-height: 50px;
+    }
+
+    .button {
+        font-size: 15px;
+    }
+
+    .header_list {
+        gap: 100px;
+    }
+
+    .button1 {
+        max-height: 40px;
+        margin-right: 5%;
+    }
+
+    .welcome__subtitle {
+        font-size: 35px;
+    }
+
+    .welcome__title {
+        font-size: 50px;
+    }
+
+    .welcome__subtitle_name {
+        font-size: 35px;
+    }
+
+    .welcome__list {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .welcome_list .container {
+        max-height: 110px;
+        gap: 10%;
+    }
+
+    .section_logo_cup {
+        max-height: 90px;
+        margin-left: 2%;
+    }
+
+    .section_logo_graph {
+        max-height: 50px;
+        margin-left: 1%;
+    }
+
+    .section_logo_handshake {
+        max-height: 70px;
+        margin-left: 5%;
+    }
+
+    .section_logo_loupe {
+        max-height: 90px;
+        margin-left: 2%;
+    }
+
+    .section_logo_thumbs_up {
+        max-height: 70px;
+    }
+
+    .section_logo_headphones {
+        max-height: 90px;
+        margin-left: -2.5%;
+    }
+
+    .about_us_nav {
+        margin-left: 27%;
+    }
+
+    .about_us_title {
+        margin-left: 42%;
+        white-space: nowrap;
+    }
+
+    .about_us_subtitle {
+        margin-left: 42%;
+        white-space: nowrap;
+    }
+
+    .about_us_list {
+        margin-left: 42%;
+        white-space: nowrap;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) {
+    .services_nav {
+        margin-left: 5%;
+    }
+
+    .services_img {
+        margin-right: 15%;
+    }
+
+    .section_logo_handshake {
+        margin-left: 4.5%;
+    }
+
+    .section_logo_loupe {
+        margin-left: 1.5%;
+    }
+
+    .section_logo_thumbs_up {
+        margin-left: -1%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -5%;
+    }
+
+    .section_logo_cup {
+        margin-left: 1.5%;
+    }
+
+    .section_logo_graph {
+        margin-left: 1.5%;
+    }
+
+    .about_us_title {
+        margin-left: 43%;
+        white-space: nowrap;
+    }
+
+    .about_us_subtitle {
+        margin-left: 43%;
+        white-space: nowrap;
+    }
+
+    .about_us_list {
+        margin-left: 43%;
+        white-space: nowrap;
+    }
+
+    .about_us_nav {
+        margin-left: 30%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header_list {
+        gap: 50px;
+    }
+
+    .main_list {
+        gap: 2%;
+    }
+
+    .welcome_list .container {
+        gap: 9%;
+    }
+    
+    .welcome_list {
+        margin-left: 0%;
+    }
+
+    .section_logo_cup {
+        margin-left: 2%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .button {
+        font-size: 10px;
+    }
+
+    .header_logo {
+        max-height: 30px;
+    }
+
+    .header_nav a {
+        font-size: 12px;
+        opacity: 0.5;
+    }
+
+    .header_nav a.active {
+        font-size: 12px;
+        opacity: 1;
+        color: #ecc440;
+    }
+
+    .button1 {
+       max-height: 30px;
+       max-width: 150px;
+       font-size: 12px;
+    }
+
+    .welcome__subtitle {
+        font-size: 25px;
+    }
+
+    .welcome__title {
+        font-size: 35px;
+    }
+
+    .welcome__subtitle_name {
+        font-size: 25px;
+    }
+
+    .welcome__list {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .main_list {
+        gap: 3%;
+        margin-left: -1%;
+    }
+
+    .section_logo_cup {
+        margin-left: 0%;
+    }
+
+    .section_logo_loupe {
+        margin-left: 1%;
+    }
+
+    .section_logo_thumbs_up {
+        margin-left: -2%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -6%;
+    }
+
+    .services_title {
+        font-size: 40px;
+    }
+
+    .services_subtitle {
+        font-size: 25px;
+    }
+    
+    .text_list {
+        font-size: 15px;
+    }
+
+    .services_text {
+        font-size: 12px;
+    }
+
+    .services_subtitle_name{
+        font-size: 25px;
+    }
+
+    .services {
+        max-height: 600px;
+    }
+
+    .services_picture {
+        max-height: 500px;
+    }
+
+    .kate_rewiews {
+        max-height: 250px;
+        max-width: 250px;
+        margin-left: 22%;
+    }
+
+    .play-button {
+        max-height: 150px;
+        margin-left: -48%;
+        bottom: 20%;
+    }
+
+    .chris_rewiews {
+        max-height: 250px;
+        max-width: 250px;
+        margin-left: 22%;
+    }
+
+    .reviews_title {
+        font-size: 40px;
+    }
+
+    .cards_title_chris {
+        font-size: 25px;
+    }
+
+    .cards_title_kate {
+        font-size: 25px;
+    }
+
+    .reviews {
+        height: 550px;
+
+    }
+
+    .section-3 .container {
+        max-height: 550px;
+    }
+
+    .about_us_title {
+        padding-top: 5%;
+        font-size: 40px;
+    }
+
+    .about_us_subtitle {
+        padding-top: 5%;
+        font-size: 25px;
+    }
+
+    .about_us_list {
+        padding-top: 5%;
+        font-size: 25px;
+    }
+
+    .about_us_list_text {
+        font-size: 15px;
+    }
+
+    
+    .about_us_subtext {
+       font-size: 12px;
+    }
+
+    .section-4 .container .button1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+
+    .image {
+        height: 700px;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .about_us_nav {
+        margin-left: 32%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .welcome_article {
+        background-position: left;
+    }
+
+    .welcome__title {
+        max-width: 350px;
+    }
+
+    .welcome_list .container {
+        gap: 7.5%;
+    }
+
+    .section_logo_cup {
+        margin-left: -0.5%;
+    }
+
+    .section_logo_graph {
+        margin-left: 2%;
+    }
+
+    .section_logo_loupe {
+        margin-left: 0%;
+    }
+
+    .section_logo_thumbs_up {
+        margin-left: -3%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -9.5%;
+    }
+
+    .header_logo_footer {
+        max-height: 30px;
+    }
+     
+    .instagram a {
+       font-size: 12px;
+    }
+
+    .number_phone {
+        margin-left: 5%;
+        white-space: nowrap;
+    }
+
+    .email {
+        margin-right: 5%;
+    }
+
+    .instagram_account {
+        margin-left: 1%;
+        white-space: nowrap;
+    }
+
+    .logo_instagram {
+        margin-left: -2%;
+    }
+    
+    .logo_whatsapp {
+        margin-left: 2%;
+    }
+
+    .logo_telegram {
+        margin-left: 2%;
+    }
+
+    .kesha {
+        font-size: 12px;
+        margin-left: -0.5%;
+    }
+
+    .cards_kate {
+        margin-left: -10%;
+    }
+
+    .cards_chris {
+        margin-right: -10%;
+    }
+
+    .about_us_nav {
+        margin-left: 37%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .header_list {
+        gap: 5%;
+    }
+
+    .nav__item {
+        white-space: nowrap;
+    }
+
+    .header_nav {
+        margin-left: -15%;
+    }
+
+    .button {
+        margin-left: -10%;
+    }
+
+    .welcome__subtitle {
+        max-width: 100px;
+    }
+
+    .welcome__list {
+        max-width: 300px;
+    }
+
+    .section_logo_handshake {
+        margin-left: 1%;
+        max-height: 50px;
+    }
+
+    .section_logo_loupe {
+        margin-left: -3%;
+        max-height: 60px;
+    }
+
+    .section_logo_thumbs_up {
+        margin-left: -5.5%;
+        max-height: 50px;
+    }
+
+    .section_logo_headphones {
+        margin-left: -16.5%;
+        max-height: 60px;
+    }
+
+    .section_logo_cup {
+        max-height: 70px;
+        margin-left: 1.5%;
+    }
+
+    .section_logo_graph {
+        max-height: 35px;
+    }
+
+    .welcome_list .container {
+        gap: 11%;
+    }
+
+    .container_main {
+        max-height: 40px;
+    }
+
+    .main_list {
+        margin-bottom: -2%;
+    }
+
+    .services_img {
+        margin-left: -17%;
+        display: none;
+    }
+
+    .services_nav {
+        max-width: 400px;
+        margin-left: 0;
+        
+    }
+
+    .services {
+        background-image: url(./Images/Section\ picture.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    .section-2 .container {
+        background-color: rgba(33, 33, 33, 0.5);
+        flex-direction: column;
+        
+        
+    }
+    
+    .services_title {
+        margin-top: -10%;
+    }
+
+    .services_subtitle {
+        margin-top: -10%;
+    }
+
+    .services_subtitle_name {
+        margin-top: 3%;
+    }
+
+    .services_nav .button1 {
+       margin-top: -10%;
+       margin-bottom: 5%;
+       margin-left: 31%;
+    }
+
+    .services_subtitle {
+        text-align: center;
+    }
+
+    .services_text {
+        text-align: center;
+    }
+
+    .services_subtitle_name {
+        text-align: center;
+    }
+
+    .services_list {
+        margin-top: -5%;
+    }
+
+    .cards_kate {
+        margin-left: -23%;
+    }
+
+    .cards_chris {
+        margin-right: -20%;
+    }
+
+    .image {
+        background-position: -550px ;
+    }
+
+    .container .instagram {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_logo_footer {
+        margin-left: -2%;
+    }
+
+    .number_phone {
+        margin-left: 7%;
+    }
+
+    .logo_instagram {
+        margin-left: 2%;
+    }
+
+    .kesha {
+        margin-left: -1%;
+    }
+
+    .toggleMenu {
+        display: none;
+    }
+        
+    
+    
+}
+
+ @media (max-width: 768px){
+    .header_nav [type="checkbox"] {
+        display: none;
+    }
+    .header_nav {
+        overflow: hidden;
+        margin-left: -5%;
+    }
+
+    .header_nav.fixed {
+        position: fixed;
+    }
+
+    .header_nav ul {
+        display: block;
+        max-height: 0;
+        transition: max-height 0.3s;
+    }
+       .header_nav li>ul li ul{
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+       .header_nav label.toggleMenu{
+        display: block;
+    }
+       input.toggleMenu:checked + label.toggleMenu{
+        background: #000;
+        color: #fff;
+    }
+       input.toggleMenu:checked ~ ul,
+       input.toggleSubmenu:checked ~ ul{
+        display: block;
+        position: relative;
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+    }
+       .header_nav label.toggleSubmenu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: block;
+    }
+       input.toggleSubmenu:checked ~ a{
+        background: #454547;
+        color: #fff;
+    }
+       .header_nav label.toggleSubmenu .fa:before{
+        content: "\f0d7";
+        color: #454547;
+    }
+       .header_nav label.toggleSubmenu .fa{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+       .header_nav input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before{
+        content: "\f0d8";
+        color: #ffffff;
+    }
+
+    .header .container {
+        max-width: 768px;
+    }
+
+    .welcome_article {
+        overflow: hidden;
+    }
+
+    .welcome_list {
+        overflow: hidden;
+    }
+
+    .services {
+        overflow: hidden;
+    }
+
+    .reviews {
+        overflow: hidden;
+    }
+
+    .about_us {
+        overflow: hidden;
+    }
+
+    .section_logo_loupe {
+        margin-left: -3.5%;
+    }
+    
+    .section_logo_thumbs_up {
+        margin-left: -6%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -17%;
+    }
+
+    .image {
+        background-position: -580px ;
+    }
+    
+}
+
+@media (max-width: 640px){
+    .header .container {
+        max-width: 640px;
+    }
+
+    .welcome__text {
+        margin-left: 5%;
+    }
+
+    .text {
+        font-size: 8px;
+    }
+
+    .section_logo_cup {
+        margin-left: 1%;
+    }
+
+    .welcome_list .container {
+        gap: 9%;
+    }
+
+    .section_logo_graph {
+        margin-left: 3.5%;
+    }
+
+    .section_logo_handshake {
+        margin-left: 1.5%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -20%;
+    }
+
+    .cards_kate {
+        margin-left: -30%;
+    }
+
+    .cards_chris {
+        margin-right: -27%;
+    }
+
+    .image {
+        background-position: -700px ;
+    }
+
+    .about_us_nav {
+        margin-left: 28%;
+    }
+
+    .number_phone {
+        margin-left: 10%;
+    }
+
+    .instagram {
+        margin-left: 3%;
+    }
+
+    .chris_rewiews {
+        margin-left: 0;
+    }
+
+    .my-video_chris {
+        position: relative;
+        left: -12%;
+
+    }
+
+    .cards_title_chris {
+        margin-bottom: 5%;
+        margin-top: 14%;
+    }
+
+    .cards_title_chris{
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .header .container {
+        max-width: 540px;
+    }
+
+    .button {
+        margin-left: 4%;
+    }
+
+    .text{
+        font-size: 5px;
+    }
+
+    .main_list {
+        gap: 0.5%;
+        margin-left: -4%;
+    }
+
+    .section_logo_cup {
+        max-height: 50px;
+        margin-left: 0%;
+    }
+
+    .section_logo_graph {
+        max-height: 25px;
+        margin-left: 4.5%;
+    }
+
+    .section_logo_handshake {
+        max-height: 35px;
+        margin-left: 2%;
+    }
+
+    .section_logo_loupe {
+        max-height: 45px;
+        margin-left: -2%;
+    }
+
+    .section_logo_thumbs_up {
+        max-height: 35px;
+        margin-left: -5%;
+    }
+
+    .section_logo_headphones {
+        max-height: 42px;
+        margin-left: -22.5%;
+    }
+
+    .welcome_list .container {
+        gap: 10%;
+    }
+
+    .button1 {
+        max-height: 17px;
+        max-width: 90px;
+        font-size: 8px;
+    }
+
+    .services_nav .button1 {
+        margin-left: 38%;
+    }
+
+    .section-2 {
+        height: 600px;
+    }
+
+    .kate_rewiews {
+        max-height: 150px;
+        max-width: 150px;
+        margin-left: 30%;
+    }
+
+    .play-button {
+        max-height: 150px;
+        margin-left: -41%;
+        bottom: -1%;
+    }
+
+    .chris_rewiews {
+        max-height: 150px;
+        max-width: 150px;
+        margin-left: 30%;
+    }
+
+    .reviews_title {
+        font-size: 40px;
+    }
+
+    .cards_title_chris {
+        font-size: 15px;
+    }
+
+    .cards_title_kate {
+        font-size: 15px;
+    }
+
+    .reviews {
+        height: 400px;
+
+    }
+
+    .image {
+        background-size: 220%;
+        background-position: -410px;
+    }
+
+    .about_us_list {
+        font-size: 20px;
+    }
+
+    .about_us_subtitle {
+        font-size: 20px;
+    }
+
+    .row .instagram {
+        display: none;
+    }
+
+    .chris_rewiews {
+        margin-left: 0;
+    }
+
+    .my-video_chris {
+        position: relative;
+        left: -12%;
+
+    }
+
+    .cards_title_chris {
+        margin-bottom: 5%;
+        margin-top: 14%;
+    }
+
+    .section-5 .row form .gender label  {
+        font-size: 15px;
+    }
+
+    .section-5 .row form .gender input {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .section-5 .row form .gender #female {
+        margin-left: 1rem;
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .header .container {
+        max-width: 480px;
+    }
+
+    .welcome_list .container {
+        gap: 9%;
+    }
+
+    .section_logo_graph {
+        margin-left: 5.5%;
+    }
+
+
+    .section_logo_thumbs_up {
+        margin-left: -6%;
+    }
+
+    .section_logo_headphones {
+        margin-left: -26%;
+    }
+
+    .cards_kate {
+        margin-left: -40%;
+    }
+
+    .cards_chris {
+        margin-right: -37%;
+    }
+
+    .image {
+        background-size: 235%;
+        background-position: -410px;
+    }
+
+    .about_us_list {
+        font-size: 15px;
+    }
+
+    .about_us_subtitle {
+        font-size: 15px;
+    }
+
+    .about_us_list_text {
+        font-size: 13px;
+    }
+
+    .header_logo_footer {
+        margin-left: -6%;
+    }
+
+    .kesha {
+        margin-left: -4%;
+    }
+
+    .chris_rewiews {
+        margin-left: 0;
+    }
+
+    .my-video_chris {
+        position: relative;
+        left: -12%;
+
+    }
+
+    .cards_title_chris {
+        margin-bottom: 5%;
+        margin-top: 14%;
+    }
+
+    .section-5 .row form .gender label  {
+        font-size: 15px;
+    }
+
+    .section-5 .row form .gender input {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .section-5 .row form .gender #female {
+        margin-left: 1rem;
+    }
+}
+
+
+@media (max-width: 394px) {
+    .header .container {
+        max-width: 393px;
+    }
+
+    .header_logo {
+        max-width: 80px;
+    }
+
+    .button {
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .toggleMenu {
+        font-size: 10px;
+    }
+    
+    .button1 {
+        font-size: 7px;
+        max-width: 80px;
+    }
+
+    .welcome_article {
+        background-position: -130px;
+        background-size: 450%;
+    }
+
+    .welcome__subtitle {
+        font-size: 15px;
+    }
+
+    .welcome__title {
+        font-size: 25px;
+        max-width: 200px;
+    }
+
+    .welcome__subtitle_name {
+        font-size: 15px;
+    }
+
+    .welcome__list {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 4px;
+    }
+
+    .main_list {
+        margin-left: -8%;
+    }
+
+    .welcome_list .container {
+        gap: 8%;
+    }
+
+    .section_logo_cup {
+       margin-left: -5%;
+    }
+
+    .section_logo_graph {
+       margin-left: 8%;
+    }
+
+    .section_logo_handshake {
+       margin-left: 2%;
+    }
+
+    .section_logo_loupe {
+       margin-left: -3%;
+    }
+
+    .section_logo_thumbs_up {
+       margin-left: -7%;
+    }
+
+    .section_logo_headphones {
+       margin-left: -32%;
+    }
+
+    .services_title {
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+
+    .services_subtitle {
+        font-size: 15px;
+    }
+
+    .text_list {
+        font-size: 10px;
+        max-width: 300px;
+        margin-left: 5%;
+
+    }
+
+    .services_text {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        max-width: 300px;
+        margin-left: 9%;
+    }
+
+    .reviews_title {
+        font-size: 25px;
+    }
+
+    .cards_kate {
+        margin-left: -60%;
+    }
+
+    .cards_chris {
+        margin-right: -60%;
+    }
+
+    .about_us_title {
+        font-size: 25px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .about_us_list_text {
+        font-size: 10px;
+    }
+
+    .image {
+        background-size: 285%;
+        background-position: -455px;
+    }
+
+    .chris_rewiews {
+        margin-left: 0;
+        background-image: url(./Images/Chris_reviews.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .my-video_chris {
+        position: relative;
+        left: -12%;
+
+    }
+
+    .cards_title_chris {
+        margin-bottom: 5%;
+        margin-top: 14%;
+        margin-left: -3%;
+    }
+
+    
+    .gender {
+        display: block;
+        justify-content: center;
+        
+        
+        max-width: 272px;
+    }
+
+    .section-5 .row form .gender label  {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .section-5 .row form .gender input {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .number_phone {
+        margin-left: 20%;
+    }
+
+    .header_nav {
+        margin-left: -15%;
+    }
+
+    .button {
+        margin-left: -2%;
+    }
+
+    .section-5 .row form .gender #female {
+        margin-left: 1rem;
+    }
+
+    .kate_rewiews {
+        background-image: url(./Images/Kate_reviews.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .header .container {
+        max-width: 360px;
+    }
+
+    .header_logo {
+        max-width: 80px;
+    }
+
+    .button {
+        font-size: 8px;
+        white-space: nowrap;
+    }
+
+    .toggleMenu {
+        font-size: 10px;
+    }
+    
+    .button1 {
+        font-size: 7px;
+        max-width: 80px;
+    }
+
+    .welcome_article {
+        background-position: -130px;
+        background-size: 450%;
+    }
+
+    .welcome__subtitle {
+        font-size: 15px;
+    }
+
+    .welcome__title {
+        font-size: 25px;
+        max-width: 200px;
+    }
+
+    .welcome__subtitle_name {
+        font-size: 15px;
+    }
+
+    .welcome__list {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 4px;
+    }
+
+    .main_list {
+        margin-left: -8%;
+    }
+
+    .welcome_list .container {
+        gap: 8%;
+    }
+
+    .section_logo_cup {
+       margin-left: -5%;
+    }
+
+    .section_logo_graph {
+       margin-left: 8%;
+    }
+
+    .section_logo_handshake {
+       margin-left: 1.5%;
+    }
+
+    .section_logo_loupe {
+       margin-left: -5%;
+    }
+
+    .section_logo_thumbs_up {
+       margin-left: -8.5%;
+    }
+
+    .section_logo_headphones {
+       margin-left: -36%;
+    }
+
+    .services_title {
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+
+    .services_subtitle {
+        font-size: 15px;
+    }
+
+    .text_list {
+        font-size: 10px;
+        max-width: 300px;
+        margin-left: 5%;
+
+    }
+
+    .services_text {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        max-width: 300px;
+        margin-left: 9%;
+    }
+
+    .reviews_title {
+        font-size: 25px;
+    }
+
+    .cards_kate {
+        margin-left: -67%;
+    }
+
+    .cards_chris {
+        margin-right: -67%;
+    }
+
+    .about_us_title {
+        font-size: 25px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .about_us_list_text {
+        font-size: 10px;
+    }
+
+    .image {
+        background-size: 310%;
+        background-position: -490px;
+    }
+
+    .chris_rewiews {
+        margin-left: 0;
+    }
+
+    .my-video_chris {
+        position: relative;
+        left: -12%;
+
+    }
+
+    .cards_title_chris {
+        margin-bottom: 5%;
+        margin-top: 14%;
+    }
+    
+    .gender {
+        display: block;
+        justify-content: center;
+        
+        
+        max-width: 272px;
+    }
+
+    .section-5 .row form .gender label  {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .section-5 .row form .gender input {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .number_phone {
+        margin-left: 20%;
+    }
+
+    .header_nav {
+        margin-left: -15%;
+    }
+
+    .button {
+        margin-left: -2%;
+    }
+
+    .section-5 .row form .gender #female {
+        margin-left: 1rem;
+    }
+
+    .about_us_nav {
+        margin-left: 22%;
+    }
+    
+}
+
+
